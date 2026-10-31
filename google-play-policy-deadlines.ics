@@ -1,0 +1,185 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Google Play Policy Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Google Play Policy Deadlines
+BEGIN:VEVENT
+UID:google-play-policy-1-20270127@calendar.local
+DTSTAMP:20261031T060000Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Google Play | Contacts Permissions
+DESCRIPTION:Review broad contacts access and consider Android Contact Picke
+ r.\nOfficial source: https://support.google.com/googleplay/android-develop
+ er/table/12921780?hl=en
+URL:https://support.google.com/googleplay/android-developer/table/12921780?
+ hl=en
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Upcoming deadline: Contacts Permissions
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Deadline tomorrow: Contacts Permissions
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:google-play-policy-2-20270127@calendar.local
+DTSTAMP:20261031T060000Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Google Play | Location Permissions
+DESCRIPTION:Review precise location access and use the narrowest permission
+ s needed.\nOfficial source: https://support.google.com/googleplay/android-
+ developer/table/12921780?hl=en
+URL:https://support.google.com/googleplay/android-developer/table/12921780?
+ hl=en
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Upcoming deadline: Location Permissions
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Deadline tomorrow: Location Permissions
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:google-play-policy-3-20270127@calendar.local
+DTSTAMP:20261031T060000Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Google Play | Call Log Permissions
+DESCRIPTION:Phone-call-based account verification is no longer an accepted 
+ READ_CALL_LOG use case. Consider SMS Retriever or Digital Credentials API.
+ \nOfficial source: https://support.google.com/googleplay/android-developer
+ /table/12921780?hl=en
+URL:https://support.google.com/googleplay/android-developer/table/12921780?
+ hl=en
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Upcoming deadline: Call Log Permissions
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Deadline tomorrow: Call Log Permissions
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:google-play-policy-4-20270127@calendar.local
+DTSTAMP:20261031T060000Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Google Play | Geofencing and Foreground Services
+DESCRIPTION:Geofencing is removed from approved foreground service use case
+ s. Review Geofencing API alternatives.\nOfficial source: https://support.g
+ oogle.com/googleplay/android-developer/table/12921780?hl=en
+URL:https://support.google.com/googleplay/android-developer/table/12921780?
+ hl=en
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Upcoming deadline: Geofencing and Foreground Services
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Deadline tomorrow: Geofencing and Foreground Services
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:google-play-policy-5-20270127@calendar.local
+DTSTAMP:20261031T060000Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Google Play | Subscription Discounts
+DESCRIPTION:Disclose eligibility criteria, verification and post-discount c
+ onditions for ongoing subscription discounts.\nOfficial source: https://su
+ pport.google.com/googleplay/android-developer/table/12921780?hl=en
+URL:https://support.google.com/googleplay/android-developer/table/12921780?
+ hl=en
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Upcoming deadline: Subscription Discounts
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Deadline tomorrow: Subscription Discounts
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:google-play-policy-6-20270414@calendar.local
+DTSTAMP:20261031T060000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:Google Play | AppFunctions API
+DESCRIPTION:Do not deceive AI agents, bypass security controls or interfere
+  with other applications.\nOfficial source: https://support.google.com/goo
+ gleplay/android-developer/table/12921780?hl=en
+URL:https://support.google.com/googleplay/android-developer/table/12921780?
+ hl=en
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Upcoming deadline: AppFunctions API
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Deadline tomorrow: AppFunctions API
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:google-play-policy-7-20270825@calendar.local
+DTSTAMP:20261031T060000Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:Google Play | Local Network Permission
+DESCRIPTION:Review Play Console declaration requirements for local network 
+ permission for apps targeting Android 17 / API 37+.\nOfficial source: http
+ s://support.google.com/googleplay/android-developer/table/12921780?hl=en
+URL:https://support.google.com/googleplay/android-developer/table/12921780?
+ hl=en
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Upcoming deadline: Local Network Permission
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Deadline tomorrow: Local Network Permission
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:google-play-policy-8-20270825@calendar.local
+DTSTAMP:20261031T060000Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:Google Play | Contacts Permission Declaration
+DESCRIPTION:Broad contacts access requires a Play Console declaration when 
+ core functionality needs it and system pickers are insufficient.\nOfficial
+  source: https://support.google.com/googleplay/android-developer/table/129
+ 21780?hl=en
+URL:https://support.google.com/googleplay/android-developer/table/12921780?
+ hl=en
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Upcoming deadline: Contacts Permission Declaration
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Deadline tomorrow: Contacts Permission Declaration
+END:VALARM
+END:VEVENT
+END:VCALENDAR
